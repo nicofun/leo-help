@@ -1,4 +1,4 @@
-# leo-tasukete
+# leo-help
 誰か(leo)がなにかいうたびに「助けて」って言う。
 
 ## Requirements
@@ -6,7 +6,7 @@
 
 ## Install
 ```sh
-git clone git@github.com:nicofun/leo-tasukete.git
+git clone git@github.com:nicofun/leo-help.git
 cd leo-tasukete
 vim .env
 cat .env
