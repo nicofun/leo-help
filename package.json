@@ -1,0 +1,24 @@
+{
+  "name": "leo-tasukete",
+  "version": "1.0.0",
+  "description": "レオがなにかいうたびに「助けて」って返す",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/coffee app.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicofun/leo-tasukete.git"
+  },
+  "author": "uehara1414",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicofun/leo-tasukete/issues"
+  },
+  "homepage": "https://github.com/nicofun/leo-tasukete#readme",
+  "dependencies": {
+    "@slack/client": "^3.6.0",
+    "coffee-script": "^1.11.1"
+  }
+}
