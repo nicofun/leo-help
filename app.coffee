@@ -7,12 +7,10 @@ name = process.env.name
 rtm = new RtmClient token
 rtm.start()
 
-id = rtm.dataStore.getUserByName name
 
 rtm.on RTM_EVENTS.MESSAGE, (m)->
   if not m.text?
     return
 
-  if m.user.id == id
+  if rtm.dataStore.getUserById(m.user).name is name
     rtm.sendMessage "助けて", m.channel
-
